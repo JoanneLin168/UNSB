@@ -59,6 +59,11 @@ Due to copyright issue, we do not directly provide cityscapes dataset.
 please refer to the original repository of [CUT](https://github.com/taesungp/contrastive-unpaired-translation).
 
 ## Training 
+First run the following *before* training:
+```
+python -m visdom.server
+```
+
 Refer the ```./run_train.sh``` file or
 
 ```
